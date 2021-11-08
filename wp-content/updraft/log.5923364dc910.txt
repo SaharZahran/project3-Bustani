@@ -1,0 +1,498 @@
+0000.001 (0) Opened log file at time: Mon, 08 Nov 2021 05:40:20 +0000 on http://localhost/Bustani
+0000.023 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.63 WP: 5.8.1 PHP: 8.0.12 (apache2handler, Windows NT DESKTOP-I8A3LJC 10.0 build 22000 (Windows 10) AMD64) MySQL: 10.4.21-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/8.0.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 94.3M | 10M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.026 (0) Free space on disk containing Updraft's temporary directory: 878400.1 MB
+0000.032 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.036 (0) Semaphore (fd, wp_options) being initialised
+0000.043 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.050 (0) Set semaphore last lock (fd) time to 2021-11-08 05:40:20
+0000.053 (0) Semaphore lock (fd) complete
+0000.062 (0) Backup run: resumption=0, nonce=5923364dc910, file_nonce=5923364dc910 begun at=1636350020 (0s ago), job type=backup
+0000.067 (0) Scheduling a resumption (1) after 300 seconds (1636350320) in case this run gets aborted
+0000.096 (0) Checking if we have a zip executable available
+0000.101 (0) Creation of backups of directories: beginning
+0000.112 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0009.939 (0) Total entities for the zip file: 2105 directories, 10802 files (0 skipped as non-modified), 141 MB
+0009.950 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3792, C:\xampp\htdocs\Bustani\wp-content\plugins\updraftplus\backup.php)
+0009.960 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0010.173 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 100 files added (on-disk size: 395.8 KB)
+0010.241 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 200 files added (on-disk size: 395.8 KB)
+0010.318 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 300 files added (on-disk size: 395.8 KB)
+0010.377 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 400 files added (on-disk size: 395.8 KB)
+0010.446 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 500 files added (on-disk size: 395.8 KB)
+0010.507 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 600 files added (on-disk size: 395.8 KB)
+0010.558 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.7 MB, 10802 files batched, 682 (683) added so far); re-opening (prior size: 395.8 KB)
+0030.118 (0) A useful amount of data was added after this amount of zip processing: 20.4 s (normalised: 19.9 s, rate: 1287.6 KB/s)
+0030.163 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 700 files added (on-disk size: 7387.1 KB)
+0030.233 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 800 files added (on-disk size: 7387.1 KB)
+0030.313 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 900 files added (on-disk size: 7387.1 KB)
+0030.377 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 1000 files added (on-disk size: 7387.1 KB)
+0030.464 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 1100 files added (on-disk size: 7387.1 KB)
+0030.535 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 1200 files added (on-disk size: 7387.1 KB)
+0030.596 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 1300 files added (on-disk size: 7387.1 KB)
+0030.659 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 1400 files added (on-disk size: 7387.1 KB)
+0030.724 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 1500 files added (on-disk size: 7387.1 KB)
+0030.790 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 1600 files added (on-disk size: 7387.1 KB)
+0030.841 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.2 MB, 10802 files batched, 1001 (1684) added so far); re-opening (prior size: 7387.1 KB)
+0037.271 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 1700 files added (on-disk size: 13397.8 KB)
+0037.336 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 1800 files added (on-disk size: 13397.8 KB)
+0037.397 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 1900 files added (on-disk size: 13397.8 KB)
+0037.459 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 2000 files added (on-disk size: 13397.8 KB)
+0037.523 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 2100 files added (on-disk size: 13397.8 KB)
+0037.597 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 2200 files added (on-disk size: 13397.8 KB)
+0037.664 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 2300 files added (on-disk size: 13397.8 KB)
+0037.736 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 2400 files added (on-disk size: 13397.8 KB)
+0037.798 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 2500 files added (on-disk size: 13397.8 KB)
+0037.864 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 2600 files added (on-disk size: 13397.8 KB)
+0037.917 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.2 MB, 10802 files batched, 1001 (2685) added so far); re-opening (prior size: 13397.8 KB)
+0056.500 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 2700 files added (on-disk size: 18474.1 KB)
+0056.579 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 2800 files added (on-disk size: 18474.1 KB)
+0056.641 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 2900 files added (on-disk size: 18474.1 KB)
+0056.709 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 3000 files added (on-disk size: 18474.1 KB)
+0056.776 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 3100 files added (on-disk size: 18474.1 KB)
+0056.840 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 3200 files added (on-disk size: 18474.1 KB)
+0056.902 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 3300 files added (on-disk size: 18474.1 KB)
+0056.974 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 3400 files added (on-disk size: 18474.1 KB)
+0057.067 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 3500 files added (on-disk size: 18474.1 KB)
+0057.131 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 3600 files added (on-disk size: 18474.1 KB)
+0057.197 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.5 MB, 10802 files batched, 1001 (3686) added so far); re-opening (prior size: 18474.1 KB)
+0060.885 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 3700 files added (on-disk size: 23879.3 KB)
+0060.951 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 3800 files added (on-disk size: 23879.3 KB)
+0061.016 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 3900 files added (on-disk size: 23879.3 KB)
+0061.083 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 4000 files added (on-disk size: 23879.3 KB)
+0061.148 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 4100 files added (on-disk size: 23879.3 KB)
+0061.237 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 4200 files added (on-disk size: 23879.3 KB)
+0061.300 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 4300 files added (on-disk size: 23879.3 KB)
+0061.366 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 4400 files added (on-disk size: 23879.3 KB)
+0061.429 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 4500 files added (on-disk size: 23879.3 KB)
+0061.490 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 4600 files added (on-disk size: 23879.3 KB)
+0061.546 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.8 MB, 10802 files batched, 1001 (4687) added so far); re-opening (prior size: 23879.3 KB)
+0068.133 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 4700 files added (on-disk size: 25804.7 KB)
+0068.192 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 4800 files added (on-disk size: 25804.7 KB)
+0068.253 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 4900 files added (on-disk size: 25804.7 KB)
+0068.313 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 5000 files added (on-disk size: 25804.7 KB)
+0068.372 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 5100 files added (on-disk size: 25804.7 KB)
+0068.432 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 5200 files added (on-disk size: 25804.7 KB)
+0068.491 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 5300 files added (on-disk size: 25804.7 KB)
+0068.551 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 5400 files added (on-disk size: 25804.7 KB)
+0068.616 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 5500 files added (on-disk size: 25804.7 KB)
+0068.676 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 5600 files added (on-disk size: 25804.7 KB)
+0068.729 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.4 MB, 10802 files batched, 1001 (5688) added so far); re-opening (prior size: 25804.7 KB)
+0094.088 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 5700 files added (on-disk size: 32090.3 KB)
+0094.160 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 5800 files added (on-disk size: 32090.3 KB)
+0094.223 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 5900 files added (on-disk size: 32090.3 KB)
+0094.290 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 6000 files added (on-disk size: 32090.3 KB)
+0094.356 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 6100 files added (on-disk size: 32090.3 KB)
+0094.418 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 6200 files added (on-disk size: 32090.3 KB)
+0094.479 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 6300 files added (on-disk size: 32090.3 KB)
+0094.544 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 6400 files added (on-disk size: 32090.3 KB)
+0094.607 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 6500 files added (on-disk size: 32090.3 KB)
+0094.676 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 6600 files added (on-disk size: 32090.3 KB)
+0094.735 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.1 MB, 10802 files batched, 1001 (6689) added so far); re-opening (prior size: 32090.3 KB)
+0109.162 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 6700 files added (on-disk size: 34612.8 KB)
+0109.232 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 6800 files added (on-disk size: 34612.8 KB)
+0109.296 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 6900 files added (on-disk size: 34612.8 KB)
+0109.363 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 7000 files added (on-disk size: 34612.8 KB)
+0109.425 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 7100 files added (on-disk size: 34612.8 KB)
+0109.494 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 7200 files added (on-disk size: 34612.8 KB)
+0109.560 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 7300 files added (on-disk size: 34612.8 KB)
+0109.622 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 7400 files added (on-disk size: 34612.8 KB)
+0109.687 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 7500 files added (on-disk size: 34612.8 KB)
+0109.749 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 7600 files added (on-disk size: 34612.8 KB)
+0109.816 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.8 MB, 10802 files batched, 1001 (7690) added so far); re-opening (prior size: 34612.8 KB)
+0125.854 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 7700 files added (on-disk size: 36063.6 KB)
+0125.924 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 7800 files added (on-disk size: 36063.6 KB)
+0125.990 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 7900 files added (on-disk size: 36063.6 KB)
+0126.054 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 8000 files added (on-disk size: 36063.6 KB)
+0126.119 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 8100 files added (on-disk size: 36063.6 KB)
+0126.183 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 8200 files added (on-disk size: 36063.6 KB)
+0126.246 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 8300 files added (on-disk size: 36063.6 KB)
+0126.309 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 8400 files added (on-disk size: 36063.6 KB)
+0126.380 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 8500 files added (on-disk size: 36063.6 KB)
+0126.444 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 8600 files added (on-disk size: 36063.6 KB)
+0126.501 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.2 MB, 10802 files batched, 1001 (8691) added so far); re-opening (prior size: 36063.6 KB)
+0141.725 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 8700 files added (on-disk size: 38105 KB)
+0141.788 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 8800 files added (on-disk size: 38105 KB)
+0141.851 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 8900 files added (on-disk size: 38105 KB)
+0141.914 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 9000 files added (on-disk size: 38105 KB)
+0141.982 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 9100 files added (on-disk size: 38105 KB)
+0142.046 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 9200 files added (on-disk size: 38105 KB)
+0142.125 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 9300 files added (on-disk size: 38105 KB)
+0142.199 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 9400 files added (on-disk size: 38105 KB)
+0142.263 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 9500 files added (on-disk size: 38105 KB)
+0142.335 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 9600 files added (on-disk size: 38105 KB)
+0142.394 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.2 MB, 10802 files batched, 1001 (9692) added so far); re-opening (prior size: 38105 KB)
+0145.807 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 9700 files added (on-disk size: 41513.7 KB)
+0145.879 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 9800 files added (on-disk size: 41513.7 KB)
+0145.960 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 9900 files added (on-disk size: 41513.7 KB)
+0146.053 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 10000 files added (on-disk size: 41513.7 KB)
+0146.135 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 10100 files added (on-disk size: 41513.7 KB)
+0146.198 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 10200 files added (on-disk size: 41513.7 KB)
+0146.264 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 10300 files added (on-disk size: 41513.7 KB)
+0146.332 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 10400 files added (on-disk size: 41513.7 KB)
+0146.394 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 10500 files added (on-disk size: 41513.7 KB)
+0146.460 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 10600 files added (on-disk size: 41513.7 KB)
+0146.525 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.3 MB, 10802 files batched, 1001 (10693) added so far); re-opening (prior size: 41513.7 KB)
+0164.493 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 10700 files added (on-disk size: 47671.6 KB)
+0164.575 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.tmp: 10800 files added (on-disk size: 47671.6 KB)
+0168.310 (0) Creating zip file manifest (C:\xampp\htdocs\Bustani/wp-content/updraft/backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.list-temp.tmp)
+0168.458 (0) Successfully created zip file manifest (size: 966247)
+0169.553 (0) Created plugins zip (0) - 47873.5 KB in 169.4 s (282.5 KB/s) (sha1: 44d20763c9195dd0f4aacea0e92078e44158a4b4, sha256: d14e58c17c2bb475c7792bc594bd66bc975b081640523b66b1fe565fa42137dd)
+0169.561 (0) Beginning creation of dump of themes (split every: 400 MB)
+0169.913 (0) Total entities for the zip file: 114 directories, 616 files (0 skipped as non-modified), 15.3 MB
+0169.918 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3792, C:\xampp\htdocs\Bustani\wp-content\plugins\updraftplus\backup.php)
+0169.964 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0170.010 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0170.063 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0170.117 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0170.166 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0170.220 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0181.347 (0) Creating zip file manifest (C:\xampp\htdocs\Bustani/wp-content/updraft/backup_2021-11-08-0840_localhost_Bustani_5923364dc910-themes.zip.list-temp.tmp)
+0181.355 (0) Successfully created zip file manifest (size: 42210)
+0181.456 (0) Created themes zip (0) - 4552.2 KB in 11.9 s (382.9 KB/s) (sha1: e3e220bfb0611d6f897bc6400b8c5dc179d0eafa, sha256: 2563a5304c14d3b95121e276562f4466a426cf5823b8b9fdc78f0e2175d75fa6)
+0181.465 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0181.468 (0) Looking for candidates to backup in: C:\xampp\htdocs\Bustani/wp-content/uploads
+0181.472 (0) finding files: 2016: adding to list (1)
+0181.474 (0) finding files: 2019: adding to list (2)
+0181.476 (0) finding files: 2021: adding to list (3)
+0181.479 (0) finding files: elementor: adding to list (4)
+0181.482 (0) finding files: wc-logs: adding to list (5)
+0181.485 (0) finding files: woocommerce_uploads: adding to list (6)
+0181.487 (0) finding files: wpforms: adding to list (7)
+0181.490 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0181.570 (0) Total entities for the zip file: 13 directories, 141 files (0 skipped as non-modified), 14.4 MB
+0181.575 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3792, C:\xampp\htdocs\Bustani\wp-content\plugins\updraftplus\backup.php)
+0181.620 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0182.166 (0) Creating zip file manifest (C:\xampp\htdocs\Bustani/wp-content/updraft/backup_2021-11-08-0840_localhost_Bustani_5923364dc910-uploads.zip.list-temp.tmp)
+0182.172 (0) Successfully created zip file manifest (size: 13362)
+0182.506 (0) Created uploads zip (0) - 14480.1 KB in 1 s (14348.1 KB/s) (sha1: 716f9ec79e9e8a466df473b46cd9a5c4df93c9e6, sha256: 70301ef7d1842dbe941ea99787e73df27e93603aed7aab537001c79c527c4316)
+0182.514 (0) Beginning backup of other directories found in the content directory (index: 0)
+0182.517 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0182.519 (0) Looking for candidates to backup in: C:\xampp\htdocs\Bustani/wp-content
+0182.522 (0) finding files: index.php: adding to list (1)
+0182.524 (0) finding files: languages: adding to list (2)
+0182.526 (0) finding files: plugins: skipping: this is the plugins directory
+0182.529 (0) finding files: themes: skipping: this is the themes directory
+0182.531 (0) finding files: updraft: skipping: this is the updraft directory
+0182.533 (0) finding files: upgrade: skipping: excluded by options
+0182.536 (0) finding files: uploads: skipping: this is the uploads directory
+0182.921 (0) Total entities for the zip file: 3 directories, 821 files (0 skipped as non-modified), 14 MB
+0182.927 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3792, C:\xampp\htdocs\Bustani\wp-content\plugins\updraftplus\backup.php)
+0182.977 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0183.028 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0183.075 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0183.123 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0183.175 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0183.230 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0183.276 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-others.zip.tmp: 700 files added (on-disk size: 0 KB)
+0183.323 (0) Zip: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-others.zip.tmp: 800 files added (on-disk size: 0 KB)
+0195.632 (0) Creating zip file manifest (C:\xampp\htdocs\Bustani/wp-content/updraft/backup_2021-11-08-0840_localhost_Bustani_5923364dc910-others.zip.list-temp.tmp)
+0195.642 (0) Successfully created zip file manifest (size: 64520)
+0195.724 (0) Created others zip (0) - 3593.5 KB in 13.2 s (272.6 KB/s) (sha1: a9047c33b283d5502cd715406030cdd07a12a51b, sha256: ebea38624bccd395ff9fa9aefb6183d4faae90cf47fb493f3b2fc4e08a0dcc39)
+0195.738 (0) Saving backup status to database (elements: 8)
+0195.745 (0) Beginning creation of database dump (WordPress DB)
+0195.748 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0195.837 (0) Table wp_options: Total expected rows (via COUNT): 504
+0195.931 (0) Table wp_options: Rows added in this batch (next record: 1970): 500 (uncompressed bytes in this segment=1510890) in 0.14 seconds
+0195.948 (0) Table wp_options: finishing file(s) (2, 225.5 KB)
+0195.965 (0) Table wp_users: Total expected rows (via COUNT): 1
+0195.968 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0195.975 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1356) in 0.02 seconds
+0195.989 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0196.010 (0) Table wp_usermeta: Total expected rows (via COUNT): 38
+0196.013 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0196.021 (0) Table wp_usermeta: Rows added in this batch (next record: 39): 38 (uncompressed bytes in this segment=13519) in 0.02 seconds
+0196.038 (0) Table wp_usermeta: finishing file(s) (2, 3.4 KB)
+0196.059 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 16
+0196.061 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0196.069 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 26): 16 (uncompressed bytes in this segment=8273) in 0.02 seconds
+0196.086 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.4 KB)
+0196.102 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0196.109 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=630) in 0.01 seconds
+0196.122 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0196.139 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0196.142 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0196.149 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=721) in 0.02 seconds
+0196.162 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0196.180 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 36
+0196.183 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0196.190 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=3805) in 0.02 seconds
+0196.213 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.9 KB)
+0196.233 (0) Table wp_commentmeta: Total expected rows (via COUNT): 6
+0196.236 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0196.243 (0) Table wp_commentmeta: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1040) in 0.02 seconds
+0196.264 (0) Table wp_commentmeta: finishing file(s) (2, 0.5 KB)
+0196.287 (0) Table wp_comments: Total expected rows (via COUNT): 10
+0196.291 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0196.296 (0) Table wp_comments: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=5609) in 0.02 seconds
+0196.310 (0) Table wp_comments: finishing file(s) (2, 1.7 KB)
+0196.332 (0) Table wp_links: Total expected rows (via COUNT): 0
+0196.340 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.02 seconds
+0196.355 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0196.440 (0) Table wp_postmeta: Total expected rows (approximate): 9985
+0196.516 (0) Table wp_postmeta: Rows added in this batch (next record: 4088): 2591 (uncompressed bytes in this segment=1641465) in 0.15 seconds
+0196.534 (0) Table wp_postmeta: finishing file(s) (2, 63.8 KB)
+0196.588 (0) Table wp_posts: Total expected rows (via COUNT): 339
+0196.593 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0196.665 (0) Table wp_posts: Rows added in this batch (next record: 1109): 339 (uncompressed bytes in this segment=836262) in 0.12 seconds
+0196.684 (0) Table wp_posts: finishing file(s) (2, 69.2 KB)
+0196.704 (0) Table wp_term_relationships: Total expected rows (approximate): 290
+0196.714 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 290 (uncompressed bytes in this segment=5017) in 0.02 seconds
+0196.728 (0) Table wp_term_relationships: finishing file(s) (2, 1.2 KB)
+0196.759 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 62
+0196.761 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0196.769 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 62): 62 (uncompressed bytes in this segment=3758) in 0.03 seconds
+0196.785 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.1 KB)
+0196.805 (0) Table wp_termmeta: Total expected rows (via COUNT): 24
+0196.809 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0196.817 (0) Table wp_termmeta: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1570) in 0.02 seconds
+0196.833 (0) Table wp_termmeta: finishing file(s) (2, 0.6 KB)
+0196.851 (0) Table wp_terms: Total expected rows (via COUNT): 62
+0196.854 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0196.861 (0) Table wp_terms: Rows added in this batch (next record: 62): 62 (uncompressed bytes in this segment=3160) in 0.02 seconds
+0196.873 (0) Table wp_terms: finishing file(s) (2, 1.1 KB)
+0196.889 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 9
+0196.897 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 9 (uncompressed bytes in this segment=673) in 0.02 seconds
+0196.910 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0196.928 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 28
+0196.930 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0196.937 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 1077): 28 (uncompressed bytes in this segment=3859) in 0.02 seconds
+0196.951 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.8 KB)
+0196.971 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0196.977 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=659) in 0.02 seconds
+0196.990 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0197.009 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0197.012 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0197.017 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=800) in 0.02 seconds
+0197.029 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0197.049 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0197.054 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=772) in 0.02 seconds
+0197.069 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0197.092 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0197.095 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=799) in 0.02 seconds
+0197.110 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0197.135 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 46
+0197.137 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0197.144 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 274): 46 (uncompressed bytes in this segment=8526) in 0.02 seconds
+0197.160 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 2 KB)
+0197.182 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 42
+0197.184 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0197.189 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 48): 42 (uncompressed bytes in this segment=22229) in 0.02 seconds
+0197.206 (0) Table wp_wc_admin_notes: finishing file(s) (2, 5.8 KB)
+0197.223 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0197.229 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1230) in 0.01 seconds
+0197.241 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0197.261 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0197.264 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=918) in 0.01 seconds
+0197.293 (0) Table wp_wc_download_log: finishing file(s) (2, 0.5 KB)
+0197.315 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0197.319 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=711) in 0.01 seconds
+0197.333 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0197.354 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0197.357 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1211) in 0.01 seconds
+0197.372 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0197.392 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0197.395 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1102) in 0.01 seconds
+0197.407 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0197.422 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0197.426 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=789) in 0.01 seconds
+0197.439 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0197.456 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0197.460 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1202) in 0.01 seconds
+0197.471 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0197.491 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0197.493 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1031) in 0.01 seconds
+0197.510 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0197.531 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 1
+0197.534 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0197.539 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1060) in 0.02 seconds
+0197.554 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0197.572 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0197.579 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1514) in 0.02 seconds
+0197.595 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0197.619 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0197.621 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=719) in 0.01 seconds
+0197.636 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0197.657 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0197.660 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=727) in 0.01 seconds
+0197.673 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0197.693 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0197.696 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=821) in 0.01 seconds
+0197.707 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0197.737 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1
+0197.739 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0197.745 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=3539) in 0.03 seconds
+0197.760 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 1.2 KB)
+0197.781 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0197.787 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=862) in 0.02 seconds
+0197.800 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0197.819 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0197.822 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.01 seconds
+0197.833 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0197.850 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0197.853 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.01 seconds
+0197.864 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0197.884 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0197.887 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=836) in 0.01 seconds
+0197.899 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0197.919 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0197.922 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1273) in 0.01 seconds
+0197.935 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0197.958 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 6
+0197.961 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0197.966 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1126) in 0.02 seconds
+0197.981 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0198.009 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 208
+0198.011 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0198.039 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 208): 208 (uncompressed bytes in this segment=191229) in 0.05 seconds
+0198.056 (0) Table wp_yoast_indexable: finishing file(s) (2, 18.2 KB)
+0198.072 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 11
+0198.078 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 11 (uncompressed bytes in this segment=978) in 0.01 seconds
+0198.090 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0198.111 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 22
+0198.113 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0198.119 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=1207) in 0.02 seconds
+0198.132 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0198.151 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0198.157 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=852) in 0.01 seconds
+0198.170 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0198.191 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 66
+0198.194 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0198.201 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 66): 66 (uncompressed bytes in this segment=11730) in 0.02 seconds
+0198.213 (0) Table wp_yoast_seo_links: finishing file(s) (2, 2 KB)
+0198.215 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\Bustani/wp-content/updraft/backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db.gz (line 1833, C:\xampp\htdocs\Bustani\wp-content\plugins\updraftplus\backup.php)
+0198.219 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_options.table.tmpr1971.gz (1/49/fopen): adding to final database dump
+0198.231 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_options.table.gz (2/49/fopen): adding to final database dump
+0198.234 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_users.table.tmpr2.gz (3/49/fopen): adding to final database dump
+0198.237 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_users.table.gz (4/49/fopen): adding to final database dump
+0198.239 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_usermeta.table.tmpr40.gz (5/49/fopen): adding to final database dump
+0198.242 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_usermeta.table.gz (6/49/fopen): adding to final database dump
+0198.244 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_actionscheduler_actions.table.tmpr27.gz (7/49/fopen): adding to final database dump
+0198.247 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_actionscheduler_actions.table.gz (8/49/fopen): adding to final database dump
+0198.249 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/49/fopen): adding to final database dump
+0198.251 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_actionscheduler_claims.table.gz (10/49/fopen): adding to final database dump
+0198.253 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/49/fopen): adding to final database dump
+0198.256 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_actionscheduler_groups.table.gz (12/49/fopen): adding to final database dump
+0198.257 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_actionscheduler_logs.table.tmpr37.gz (13/49/fopen): adding to final database dump
+0198.260 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_actionscheduler_logs.table.gz (14/49/fopen): adding to final database dump
+0198.262 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_commentmeta.table.tmpr7.gz (15/49/fopen): adding to final database dump
+0198.265 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_commentmeta.table.gz (16/49/fopen): adding to final database dump
+0198.268 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_comments.table.tmpr11.gz (17/49/fopen): adding to final database dump
+0198.271 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_comments.table.gz (18/49/fopen): adding to final database dump
+0198.274 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_links.table.tmpr0.gz (19/49/fopen): adding to final database dump
+0198.280 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_links.table.gz (20/49/fopen): adding to final database dump
+0198.286 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_postmeta.table.tmpr4089.gz (21/49/fopen): adding to final database dump
+0198.294 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_postmeta.table.gz (22/49/fopen): adding to final database dump
+0198.300 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_posts.table.tmpr1110.gz (23/49/fopen): adding to final database dump
+0198.317 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_posts.table.gz (24/49/fopen): adding to final database dump
+0198.320 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_term_relationships.table.tmpr100001.gz (25/49/fopen): adding to final database dump
+0198.323 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_term_relationships.table.gz (26/49/fopen): adding to final database dump
+0198.325 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_term_taxonomy.table.tmpr63.gz (27/49/fopen): adding to final database dump
+0198.328 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_term_taxonomy.table.gz (28/49/fopen): adding to final database dump
+0198.330 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_termmeta.table.tmpr25.gz (29/49/fopen): adding to final database dump
+0198.333 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_termmeta.table.gz (30/49/fopen): adding to final database dump
+0198.335 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_terms.table.tmpr63.gz (31/49/fopen): adding to final database dump
+0198.337 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_terms.table.gz (32/49/fopen): adding to final database dump
+0198.340 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/49/fopen): adding to final database dump
+0198.342 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_category_lookup.table.gz (34/49/fopen): adding to final database dump
+0198.345 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_product_meta_lookup.table.tmpr1078.gz (35/49/fopen): adding to final database dump
+0198.347 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_product_meta_lookup.table.gz (36/49/fopen): adding to final database dump
+0198.349 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/49/fopen): adding to final database dump
+0198.352 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_reserved_stock.table.gz (38/49/fopen): adding to final database dump
+0198.355 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/49/fopen): adding to final database dump
+0198.357 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_tax_rate_classes.table.gz (40/49/fopen): adding to final database dump
+0198.359 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (41/49/fopen): adding to final database dump
+0198.362 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_order_itemmeta.table.gz (42/49/fopen): adding to final database dump
+0198.365 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/49/fopen): adding to final database dump
+0198.367 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/49/fopen): adding to final database dump
+0198.370 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_admin_note_actions.table.tmpr275.gz (45/49/fopen): adding to final database dump
+0198.372 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_admin_note_actions.table.gz (46/49/fopen): adding to final database dump
+0198.375 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_admin_notes.table.tmpr49.gz (47/49/fopen): adding to final database dump
+0198.378 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_admin_notes.table.gz (48/49/fopen): adding to final database dump
+0198.380 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_customer_lookup.table.tmpr0.gz (49/49/fopen): adding to final database dump
+0198.383 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_customer_lookup.table.gz (50/49/fopen): adding to final database dump
+0198.385 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_download_log.table.tmpr0.gz (51/49/fopen): adding to final database dump
+0198.388 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_download_log.table.gz (52/49/fopen): adding to final database dump
+0198.390 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (53/49/fopen): adding to final database dump
+0198.393 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_order_coupon_lookup.table.gz (54/49/fopen): adding to final database dump
+0198.395 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (55/49/fopen): adding to final database dump
+0198.398 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_order_product_lookup.table.gz (56/49/fopen): adding to final database dump
+0198.400 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_order_stats.table.tmpr0.gz (57/49/fopen): adding to final database dump
+0198.403 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_order_stats.table.gz (58/49/fopen): adding to final database dump
+0198.405 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (59/49/fopen): adding to final database dump
+0198.407 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_order_tax_lookup.table.gz (60/49/fopen): adding to final database dump
+0198.410 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_webhooks.table.tmpr0.gz (61/49/fopen): adding to final database dump
+0198.413 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wc_webhooks.table.gz (62/49/fopen): adding to final database dump
+0198.415 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (63/49/fopen): adding to final database dump
+0198.418 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_api_keys.table.gz (64/49/fopen): adding to final database dump
+0198.420 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr2.gz (65/49/fopen): adding to final database dump
+0198.423 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_attribute_taxonomies.table.gz (66/49/fopen): adding to final database dump
+0198.425 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (67/49/fopen): adding to final database dump
+0198.428 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (68/49/fopen): adding to final database dump
+0198.430 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_log.table.tmpr0.gz (69/49/fopen): adding to final database dump
+0198.432 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_log.table.gz (70/49/fopen): adding to final database dump
+0198.435 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_order_items.table.tmpr0.gz (71/49/fopen): adding to final database dump
+0198.438 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_order_items.table.gz (72/49/fopen): adding to final database dump
+0198.440 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (73/49/fopen): adding to final database dump
+0198.443 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_payment_tokens.table.gz (74/49/fopen): adding to final database dump
+0198.445 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_sessions.table.tmpr2.gz (75/49/fopen): adding to final database dump
+0198.448 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_sessions.table.gz (76/49/fopen): adding to final database dump
+0198.450 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (77/49/fopen): adding to final database dump
+0198.453 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_shipping_zone_locations.table.gz (78/49/fopen): adding to final database dump
+0198.455 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (79/49/fopen): adding to final database dump
+0198.458 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_shipping_zone_methods.table.gz (80/49/fopen): adding to final database dump
+0198.460 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (81/49/fopen): adding to final database dump
+0198.463 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_shipping_zones.table.gz (82/49/fopen): adding to final database dump
+0198.466 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (83/49/fopen): adding to final database dump
+0198.468 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_tax_rate_locations.table.gz (84/49/fopen): adding to final database dump
+0198.471 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (85/49/fopen): adding to final database dump
+0198.474 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_woocommerce_tax_rates.table.gz (86/49/fopen): adding to final database dump
+0198.476 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wpforms_tasks_meta.table.tmpr7.gz (87/49/fopen): adding to final database dump
+0198.478 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_wpforms_tasks_meta.table.gz (88/49/fopen): adding to final database dump
+0198.481 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_yoast_indexable.table.tmpr209.gz (89/49/fopen): adding to final database dump
+0198.485 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_yoast_indexable.table.gz (90/49/fopen): adding to final database dump
+0198.487 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (91/49/fopen): adding to final database dump
+0198.490 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_yoast_indexable_hierarchy.table.gz (92/49/fopen): adding to final database dump
+0198.493 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_yoast_migrations.table.tmpr23.gz (93/49/fopen): adding to final database dump
+0198.496 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_yoast_migrations.table.gz (94/49/fopen): adding to final database dump
+0198.499 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_yoast_primary_term.table.tmpr0.gz (95/49/fopen): adding to final database dump
+0198.502 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_yoast_primary_term.table.gz (96/49/fopen): adding to final database dump
+0198.504 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_yoast_seo_links.table.tmpr67.gz (97/49/fopen): adding to final database dump
+0198.506 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db-table-wp_yoast_seo_links.table.gz (98/49/fopen): adding to final database dump
+0198.550 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db.gz: finished writing out complete database file (413.3 KB)
+0198.595 (0) Total database tables backed up: 49 (backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db.gz, size: 423361, sha1: ff68bd53233db850efeade245cf4d17681a7c3d5, sha256: b42b7068c850684d15a95f95e7de31ebfc14bde880a1d8cc8cddd57ad6f4f31e)
+0198.606 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0198.608 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0198.611 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0198.613 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-others.zip: others: This file has not yet been successfully uploaded: will queue
+0198.615 (0) backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db.gz: db: This file has not yet been successfully uploaded: will queue
+0198.618 (0) Saving backup history. Total backup size: 69.3 MB
+0198.623 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0198.630 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0198.632 (0) No remote despatch: user chose no remote backup service
+0198.634 (0) Recording as successfully uploaded: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip
+0198.639 (0) Deleting zip manifest (backup_2021-11-08-0840_localhost_Bustani_5923364dc910-plugins.zip.list.tmp)
+0198.642 (0) Recording as successfully uploaded: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-themes.zip
+0198.648 (0) Deleting zip manifest (backup_2021-11-08-0840_localhost_Bustani_5923364dc910-themes.zip.list.tmp)
+0198.650 (0) Recording as successfully uploaded: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-uploads.zip
+0198.656 (0) Deleting zip manifest (backup_2021-11-08-0840_localhost_Bustani_5923364dc910-uploads.zip.list.tmp)
+0198.658 (0) Recording as successfully uploaded: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-others.zip
+0198.664 (0) Deleting zip manifest (backup_2021-11-08-0840_localhost_Bustani_5923364dc910-others.zip.list.tmp)
+0198.667 (0) Recording as successfully uploaded: backup_2021-11-08-0840_localhost_Bustani_5923364dc910-db.gz
+0198.676 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0198.679 (0) Number of backup sets in history: 1; groups (db): 1
+0198.681 (0) Examining (for databases) backup set with group_id=0, nonce=5923364dc910, datestamp=1636350020 (Nov 08 2021 05:40:20)
+0198.683 (0) This backup set is the backup set just made, so will not be deleted.
+0198.683 (0) Number of backup sets in history: 1; groups (files): 1
+0198.685 (0) Examining (for files) backup set with nonce=5923364dc910, datestamp=1636350020 (Nov 08 2021 05:40:20)
+0198.685 (0) This backup set is the backup set just made, so will not be deleted.
+0198.687 (0) This backup set is the backup set just made, so will not be deleted.
+0198.687 (0) This backup set is the backup set just made, so will not be deleted.
+0198.687 (0) This backup set is the backup set just made, so will not be deleted.
+0198.687 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0198.689 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0198.694 (0) Resume backup (5923364dc910, 0): finish run
+0198.700 (0) Decremented the semaphore (fd) by 1
+0198.704 (0) Semaphore (fd) unlocked
+0198.706 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0198.714 (0) No email will/can be sent - the user has not configured an email address.
+0198.716 (0) The backup apparently succeeded and is now complete
